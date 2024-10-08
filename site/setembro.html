@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setembro Amarelo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffeb3b; /* Cor de fundo amarelo */
+            transition: background-color 0.5s;
+        }
+        .content {
+            margin-top: 50px;
+        }
+        .card {
+            background-color: #fff; /* Cor do quadro */
+            color: #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .accordion-button {
+            background-color: #ffd700; /* Amarelo mais escuro */
+            color: #333;
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: #ffdb58; /* Amarelo mais claro */
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-center py-5">
+        <h1 class="display-4">Setembro Amarelo</h1>
+        <p class="lead">Campanha de Prevenção ao Suicídio</p>
+    </header>
+    
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card p-4">
+                    <h2>O que é Setembro Amarelo?</h2>
+                    <p>Setembro Amarelo é uma campanha que visa conscientizar sobre a prevenção do suicídio e a importância da saúde mental.</p>
+                    
+                    <h2>História da Campanha</h2>
+                    <p>A campanha foi criada em 2015 pela CVV (Centro de Valorização da Vida) e busca promover a conversa sobre saúde mental.</p>
+                    
+                    <h2>Informações Relevantes</h2>
+                    <div class="accordion" id="accordionSetembro">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Informações Gerais
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionSetembro">
+                                <div class="accordion-body">
+                                    <h6>Estatísticas</h6>
+                                    <p>O Brasil registra mais de 12 mil suicídios por ano.</p>
+                                    <h6>Receita Vegana</h6>
+                                    <p><strong>Salada Colorida:</strong> Misture folhas verdes, cenoura ralada, beterraba, e abacate. Tempere com azeite e limão.</p>
+                                    <h6>Perfil Epidemiológico</h6>
+                                    <p>Maior incidência entre jovens de 15 a 29 anos.</p>
+                                    <h6>Formas de Colaboração</h6>
+                                    <p>Participe de eventos e compartilhe informações sobre saúde mental nas redes sociais.</p>
+                                    <h6>História</h6>
+                                    <p>Iniciada em 2015, a campanha busca reduzir o estigma em torno do suicídio.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="index.html" class="btn btn-light">Voltar para a Página Inicial</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Campanhas de Conscientização</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
